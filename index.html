@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fb71cc4c7e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1>My Todo</h1>
+    <div class="input-container">
+      <form class="form">
+        <input
+          type="text"
+          autofocus
+          id="input"
+          class="input"
+          autocomplete="off"
+          placeholder="Enter your task"
+        />
+        <button type="submit" class="submit">submit</button>
+      </form>
+    </div>
+    <h3 class="task-tittle hide">Tasks</h3>
+    <ul class="list">
+      <!-- <li class="form__list">
+        <span>This is task one</span>
+        <i class="fa-solid fa-square-check"></i>
+        <i class="fa-solid fa-trash"></i>
+      </li>
+      <li class="form__list completed">
+        This is task one
+
+        <i class="fa-solid fa-square-check"></i>
+        <i class="fa-solid fa-trash"></i>
+      </li> -->
+    </ul>
+
+    <h3 class="completed-tittle hide">Completed Tasks</h3>
+    <ul class="completed-list"></ul>
+    <script src="index.js"></script>
+  </body>
+</html>
